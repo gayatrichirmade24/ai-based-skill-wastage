@@ -1,10 +1,43 @@
 # AI Skill Wastage Detection System
 
-AI Skill Wastage Detection System is a web-based project that detects invisible skill wastage by analyzing a user's profile and resume. The system compares the user's possessed skills with the skills required in their current occupation, calculates a Skill Wastage Score, and recommends better career roles, reskilling paths, and resume improvement suggestions.
+# Overview
+
+The AI Skill Wastage Detection System is a web-based platform developed to identify invisible skill wastage among students and professionals. The system analyzes a user's profile and uploaded resume to determine whether their current occupation fully utilizes their actual skills.
+
+By comparing possessed skills with the skills required for the user's current role, the system calculates a Skill Wastage Score and provides recommendations for:
+
+Better career opportunities
+Resume improvement
+Reskilling and upskilling paths
+Alternative career roles
+
+The project helps users understand how effectively their skills are being utilized and guides them toward improved career growth.
 
 ## Project Idea
 
-Many students and employees learn several technical and soft skills, but their current role may use only a small part of those skills. This hidden mismatch is called invisible skill wastage. This project helps users understand how many of their skills are active, underused, or wasted in their current occupation.
+Many students and employees learn technical and soft skills through education, certifications, internships, and self-learning. However, their current job role may use only a limited portion of those skills.
+
+This mismatch between possessed skills and utilized skills leads to:
+
+Underemployment
+Reduced productivity
+Career dissatisfaction
+Hidden talent wastage
+
+This hidden mismatch is known as Invisible Skill Wastage.
+
+The AI Skill Wastage Detection System is designed to detect these hidden gaps and provide intelligent recommendations for better career alignment.
+
+# Objectives
+
+Detect invisible skill wastage among users
+Analyze resumes and user profiles
+Identify active, underused, and wasted skills
+Calculate a Skill Wastage Score
+Recommend suitable alternative career roles
+Suggest reskilling and upskilling paths
+Improve resume quality and job-fit alignment
+Store analysis history and downloadable reports
 
 ## Final System Flow
 
@@ -237,6 +270,14 @@ Skills: React, JavaScript, HTML, CSS, TypeScript, Git, Firebase, Bootstrap, Tail
 Location: India
 About: I work on frontend UI development, responsive web pages, API integration, Firebase authentication, dashboard design, and improving user experience for web applications.
 ```
+## Screenshots
+
+Add project screenshots here.
+
+Example:
+
+![Homepage](screenshots/homepage.png)
+![Dashboard](screenshots/dashboard.png)
 
 ## Future Scope
 
@@ -246,3 +287,34 @@ About: I work on frontend UI development, responsive web pages, API integration,
 - Add real job-market datasets for demand-based recommendations
 - Add advanced NLP models or embeddings for deeper skill matching
 - Add organization-level skill wastage analytics
+
+## Contributors
+Purvi Panwalkar
+Nisha Kuvalekar
+Gayatri Chirmade
+
+## License
+
+This project is developed for educational, academic, and research purposes only.
+
+## Recommended .gitignore
+node_modules/
+dist/
+__pycache__/
+.env
+*.pyc
+
+## GitHub Commands
+git add .
+git commit -m "Updated project documentation"
+git push
+
+## Acknowledgements
+
+Special thanks to mentors, faculty members, and team members for their continuous guidance, encouragement, and support throughout the development of this project.
+
+## Conclusion
+
+The AI Skill Wastage Detection System provides an innovative solution for identifying hidden skill underutilization among students and professionals. By combining resume analysis, skill comparison, and intelligent recommendation systems, the platform helps users align their abilities with suitable career opportunities.
+
+The project contributes toward improved employability, better career planning, and more effective utilization of human potential in the modern workforce.
